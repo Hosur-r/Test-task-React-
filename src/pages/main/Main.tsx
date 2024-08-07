@@ -1,9 +1,8 @@
-// import styles from './styles.scss'
+import styles from './styles.module.scss'
 
 export default function MainPage(){
     return (
-        <div>
-            <p className={''}></p>
+        <div className={``}>
         </div>
     )
 }

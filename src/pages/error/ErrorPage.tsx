@@ -1,7 +1,9 @@
+import styles from './styles.module.scss'
+
 export default function ErrorPage(){
     return (
-        <div>
-            <span>Такой страницы не существует</span>
+        <div className={``}>
+            <span className={``}>Такой страницы не существует</span>
         </div>
     )
 }
